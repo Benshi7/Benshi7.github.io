@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Encriptador</h1>
+      <input
+        id="texto"
+        class="textholder"
+        placeholder="Texto a encriptar, en minúsculas y sin caracteres especiales"
+      />
+      <br />
+      <div>
+        <button id="encriptar" class="btn" onclick="encriptarTexto()">
+          <span> Encriptar </span>
+        </button>
+        <button id="desencriptar" class="btn" onclick="desencriptarTexto()">
+          <span> Desencriptar </span>
+        </button>
+      </div>
+      <br />
+      <input id="texto-output" class="textholder" placeholder="Resultado" />
+      <div>
+        <br />
+        <button id="copiar" class="btn" onclick="copiarTexto()">
+          <span>Copiar</span>
+        </button>
+        <button id="limpiar" class="btn" onclick="limpiarTexto()">
+          <span>Limpiar</span>
+        </button>
+        <p id="texto-copiado" style="height: 100px"></p>
+      </div>
+    </div>
+  </body>
+</html>
