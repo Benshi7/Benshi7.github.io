@@ -138,7 +138,7 @@ h1 {
 
   .textholder {
     height: 5em;
-    width: 15em;
+    width: 22em;
     font-size: 0.7em;
     background-color: rgba(0, 0, 0, 0.2);
     border-color: rgba(0, 0, 0, 0.2);
@@ -162,8 +162,8 @@ h1 {
 
   .textholder {
     height: 4em;
-    width: 10em;
-    font-size: 0.5em;
+    width: 18em;
+    font-size: 0.65em;
     background-color: rgba(0, 0, 0, 0.2);
     border-color: rgba(0, 0, 0, 0.2);
     color: white;
