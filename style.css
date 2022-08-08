@@ -143,3 +143,23 @@ h1 {
 
 }
 
+@media screen and (max-width: 480px) {
+
+  .textholder {
+    height: 4em;
+    width: 20em;
+    font-size: 0.65em;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  .btn {
+    width: 3em;
+    height: 1.15em;
+  }
+
+  .btn span {
+    font-size: 0.45em;
+  }
+
+}
