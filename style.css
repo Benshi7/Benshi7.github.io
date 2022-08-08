@@ -133,12 +133,12 @@ h1 {
 @media screen and (max-width: 768px) {
 
   h1 {
-    font-size: 1.35em;
+    font-size: 1.3em;
   }
 
   .textholder {
     height: 5em;
-    width: 22em;
+    width: 15em;
     font-size: 0.7em;
     background-color: rgba(0, 0, 0, 0.2);
     border-color: rgba(0, 0, 0, 0.2);
@@ -162,7 +162,7 @@ h1 {
 
   .textholder {
     height: 4em;
-    width: 18em;
+    width: 13em;
     font-size: 0.65em;
     background-color: rgba(0, 0, 0, 0.2);
     border-color: rgba(0, 0, 0, 0.2);
